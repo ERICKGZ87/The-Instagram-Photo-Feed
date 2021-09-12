@@ -1,57 +1,54 @@
-body {
-    display: block;
-    margin: 8px;
+body{
+    width: 100%;
+    height: 100%;
+    
 }
-
 
 
 .cabecera{
-    width: 600px;
-text-align: center;
-padding: 5px;
-margin-left: 370px;
 
-
-
-}
-
-.contenedor
-{
-    width: 610px;
-    
-
-display: flex;
-margin-left: 370px;
-
-}
-.Encabezado1 {
-width: 500px;
-
-}
-
-.numer h4{
-    font-size: 20px;
-margin-left: 70px;
-    
-}
-
-
-
-.fotos{
-    margin-left: 370px;
     display: flex;
-
-}
-
-.texto
-{
-    width: 610px;
-    margin-left: 370px;  
-}
-
-p {
-    text-align: left;
-font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
+    width: 100%;
     
+}
+.uno{
+    padding: 15px;
+    background-color: white;
+    width: 25%;
+}
+.dos{
+    padding: 15px;
+    background-color: white;
+    width: 50%;
+}
+.tres{
+    padding: 15px;
+    background-color: white;
+    width:25% ;
+}
+
+
+.contenido{
+    background-color: bisque;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    
+
+
+}
+.izquierdo{
+width: 25%;
+
+
+}
+.medio{
+   
+    width: 50%;
+ 
+}
+
+.derecha{
+    width: 25%;
+   
+}
